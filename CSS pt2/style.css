@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 200vh;
+  width: 200vw;
+}
+
+
+.div-dad {
+  height: 350px;
+  width: 350px;
+  background-color: #ff1396;
+  /*position stick "cola" o elemento a uma certa posição determinada, deve ser estabelecido uma distancia top, left, right ou bottom" */
+  position: sticky;
+  top: 100;
+  left: 100;
+  
+}
+
+.div-son {
+  height: 150px;
+  width: 150px;
+  background-color: darkred;
+}
+
+.prodigo {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(124, 255, 10);
+
+}
